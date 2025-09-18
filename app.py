@@ -22,7 +22,8 @@ int function1()
 }
 
 int function2()
-{
+{ 
+ return 0;
 }
 @app.route('/')
 def my_form():
