@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import nltk
 from string import punctuation
-import re
+
 from nltk.corpus import stopwords
 
 nltk.download('stopwords')
