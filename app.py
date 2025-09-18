@@ -3,8 +3,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import nltk
+import re
 from string import punctuation
-
 from nltk.corpus import stopwords
 
 nltk.download('stopwords')
