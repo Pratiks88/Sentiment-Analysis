@@ -13,6 +13,13 @@ set(stopwords.words('english'))
 
 app = Flask(__name__)
 
+int function1()
+{
+}
+
+int function2()
+{
+}
 @app.route('/')
 def my_form():
     return render_template('form.html')
