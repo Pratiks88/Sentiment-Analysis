@@ -19,6 +19,9 @@ int function1()
 
 int function2()
 {
+        int a=20;
+        int b=30;
+        return a*b;
 }
 @app.route('/')
 def my_form():
