@@ -51,3 +51,4 @@ def my_form_post():
 
 if __name__ == "__main__":
     Hi i worked on this code and it got solved 
+    I have told to update 2 functions 
